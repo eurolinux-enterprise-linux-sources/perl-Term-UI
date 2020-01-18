@@ -1,6 +1,6 @@
 Name:           perl-Term-UI
 Version:        0.36
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Term::ReadLine user interface made easy
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -59,6 +59,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.36-2
+- Mass rebuild 2013-12-27
+
 * Fri Jun 07 2013 Petr Pisar <ppisar@redhat.com> - 0.36-1
 - 0.36 bump
 
